@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC041A781AD8B1FC00277C6E /* new-home-robin-b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC041A761AD8B1FC00277C6E /* new-home-robin-b.jpg */; };
+		EC041A791AD8B1FC00277C6E /* mockingbird-a-new-home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC041A771AD8B1FC00277C6E /* mockingbird-a-new-home.jpg */; };
+		EC041A7B1AD8B34400277C6E /* builder.sql in Resources */ = {isa = PBXBuildFile; fileRef = EC041A7A1AD8B34400277C6E /* builder.sql */; };
 		EC16FC771AA905D300992088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC16FC761AA905D300992088 /* main.m */; };
 		EC16FC7A1AA905D300992088 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC16FC791AA905D300992088 /* AppDelegate.m */; };
-		EC16FC7D1AA905D300992088 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC16FC7C1AA905D300992088 /* ViewController.m */; };
 		EC16FC801AA905D300992088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC16FC7E1AA905D300992088 /* Main.storyboard */; };
 		EC16FC821AA905D300992088 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC16FC811AA905D300992088 /* Images.xcassets */; };
 		EC16FC851AA905D300992088 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC16FC831AA905D300992088 /* LaunchScreen.xib */; };
 		EC16FC911AA905D300992088 /* NatashaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC16FC901AA905D300992088 /* NatashaAppTests.m */; };
+		EC16FC9E1AA9062C00992088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC16FC9D1AA9062C00992088 /* Foundation.framework */; };
+		EC16FCA01AA9063C00992088 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC16FC9F1AA9063C00992088 /* CoreGraphics.framework */; };
+		EC16FCA21AA9064800992088 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC16FCA11AA9064800992088 /* UIKit.framework */; };
+		EC16FCA71AA9073D00992088 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC16FCA61AA9073D00992088 /* DBManager.m */; };
+		EC16FCB31AA9192600992088 /* BuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC16FCB21AA9192600992088 /* BuilderViewController.m */; };
+		EC16FCBF1AA94FBD00992088 /* AddBuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC16FCBE1AA94FBD00992088 /* AddBuilderViewController.m */; };
+		EC16FCC21AA959E500992088 /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = EC16FCC11AA959E500992088 /* Company.m */; };
+		EC16FCC51AA9646900992088 /* Company+AddCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = EC16FCC41AA9646900992088 /* Company+AddCompany.m */; };
+		EC16FCC81AA9648E00992088 /* Company+DeleteCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = EC16FCC71AA9648E00992088 /* Company+DeleteCompany.m */; };
+		EC16FCD11AA972C400992088 /* ViewBuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC16FCD01AA972C400992088 /* ViewBuilderViewController.m */; };
+		EC16FCD41AA976E000992088 /* UpdateBuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC16FCD31AA976E000992088 /* UpdateBuilderViewController.m */; };
+		EC16FCD91AAA2B4900992088 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC16FCD81AAA2B4900992088 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +41,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC041A761AD8B1FC00277C6E /* new-home-robin-b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "new-home-robin-b.jpg"; sourceTree = "<group>"; };
+		EC041A771AD8B1FC00277C6E /* mockingbird-a-new-home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mockingbird-a-new-home.jpg"; sourceTree = "<group>"; };
+		EC041A7A1AD8B34400277C6E /* builder.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = builder.sql; sourceTree = "<group>"; };
 		EC16FC711AA905D300992088 /* NatashaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatashaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC16FC751AA905D300992088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC16FC761AA905D300992088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC16FC781AA905D300992088 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC16FC791AA905D300992088 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EC16FC7B1AA905D300992088 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EC16FC7C1AA905D300992088 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EC16FC7F1AA905D300992088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC16FC811AA905D300992088 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC16FC841AA905D300992088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EC16FC8A1AA905D300992088 /* NatashaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NatashaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC16FC8F1AA905D300992088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC16FC901AA905D300992088 /* NatashaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NatashaAppTests.m; sourceTree = "<group>"; };
+		EC16FC9D1AA9062C00992088 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC16FC9F1AA9063C00992088 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC16FCA11AA9064800992088 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC16FCA51AA9073D00992088 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		EC16FCA61AA9073D00992088 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		EC16FCAD1AA9174C00992088 /* Builder.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Builder.pch; sourceTree = "<group>"; };
+		EC16FCB11AA9192600992088 /* BuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderViewController.h; sourceTree = "<group>"; };
+		EC16FCB21AA9192600992088 /* BuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderViewController.m; sourceTree = "<group>"; };
+		EC16FCBD1AA94FBD00992088 /* AddBuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBuilderViewController.h; sourceTree = "<group>"; };
+		EC16FCBE1AA94FBD00992088 /* AddBuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBuilderViewController.m; sourceTree = "<group>"; };
+		EC16FCC01AA959E500992088 /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		EC16FCC11AA959E500992088 /* Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Company.m; sourceTree = "<group>"; };
+		EC16FCC31AA9646900992088 /* Company+AddCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Company+AddCompany.h"; sourceTree = "<group>"; };
+		EC16FCC41AA9646900992088 /* Company+AddCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Company+AddCompany.m"; sourceTree = "<group>"; };
+		EC16FCC61AA9648E00992088 /* Company+DeleteCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Company+DeleteCompany.h"; sourceTree = "<group>"; };
+		EC16FCC71AA9648E00992088 /* Company+DeleteCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Company+DeleteCompany.m"; sourceTree = "<group>"; };
+		EC16FCCF1AA972C400992088 /* ViewBuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewBuilderViewController.h; sourceTree = "<group>"; };
+		EC16FCD01AA972C400992088 /* ViewBuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewBuilderViewController.m; sourceTree = "<group>"; };
+		EC16FCD21AA976E000992088 /* UpdateBuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateBuilderViewController.h; sourceTree = "<group>"; };
+		EC16FCD31AA976E000992088 /* UpdateBuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateBuilderViewController.m; sourceTree = "<group>"; };
+		EC16FCD81AAA2B4900992088 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +83,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC16FCD91AAA2B4900992088 /* libsqlite3.0.dylib in Frameworks */,
+				EC16FCA21AA9064800992088 /* UIKit.framework in Frameworks */,
+				EC16FCA01AA9063C00992088 /* CoreGraphics.framework in Frameworks */,
+				EC16FC9E1AA9062C00992088 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +106,7 @@
 				EC16FC731AA905D300992088 /* NatashaApp */,
 				EC16FC8D1AA905D300992088 /* NatashaAppTests */,
 				EC16FC721AA905D300992088 /* Products */,
+				EC16FC9C1AA9060C00992088 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +122,10 @@
 		EC16FC731AA905D300992088 /* NatashaApp */ = {
 			isa = PBXGroup;
 			children = (
+				EC16FCA41AA906DE00992088 /* DBManager */,
+				EC16FCA31AA906A500992088 /* Company */,
 				EC16FC781AA905D300992088 /* AppDelegate.h */,
 				EC16FC791AA905D300992088 /* AppDelegate.m */,
-				EC16FC7B1AA905D300992088 /* ViewController.h */,
-				EC16FC7C1AA905D300992088 /* ViewController.m */,
 				EC16FC7E1AA905D300992088 /* Main.storyboard */,
 				EC16FC811AA905D300992088 /* Images.xcassets */,
 				EC16FC831AA905D300992088 /* LaunchScreen.xib */,
@@ -96,8 +137,12 @@
 		EC16FC741AA905D300992088 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EC041A7A1AD8B34400277C6E /* builder.sql */,
+				EC041A771AD8B1FC00277C6E /* mockingbird-a-new-home.jpg */,
+				EC041A761AD8B1FC00277C6E /* new-home-robin-b.jpg */,
 				EC16FC751AA905D300992088 /* Info.plist */,
 				EC16FC761AA905D300992088 /* main.m */,
+				EC16FCAD1AA9174C00992088 /* Builder.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +162,47 @@
 				EC16FC8F1AA905D300992088 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC16FC9C1AA9060C00992088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC16FCD81AAA2B4900992088 /* libsqlite3.0.dylib */,
+				EC16FCA11AA9064800992088 /* UIKit.framework */,
+				EC16FC9F1AA9063C00992088 /* CoreGraphics.framework */,
+				EC16FC9D1AA9062C00992088 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC16FCA31AA906A500992088 /* Company */ = {
+			isa = PBXGroup;
+			children = (
+				EC16FCC01AA959E500992088 /* Company.h */,
+				EC16FCC11AA959E500992088 /* Company.m */,
+				EC16FCC31AA9646900992088 /* Company+AddCompany.h */,
+				EC16FCC41AA9646900992088 /* Company+AddCompany.m */,
+				EC16FCC61AA9648E00992088 /* Company+DeleteCompany.h */,
+				EC16FCC71AA9648E00992088 /* Company+DeleteCompany.m */,
+			);
+			name = Company;
+			sourceTree = "<group>";
+		};
+		EC16FCA41AA906DE00992088 /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+				EC16FCCF1AA972C400992088 /* ViewBuilderViewController.h */,
+				EC16FCD01AA972C400992088 /* ViewBuilderViewController.m */,
+				EC16FCD21AA976E000992088 /* UpdateBuilderViewController.h */,
+				EC16FCD31AA976E000992088 /* UpdateBuilderViewController.m */,
+				EC16FCBD1AA94FBD00992088 /* AddBuilderViewController.h */,
+				EC16FCBE1AA94FBD00992088 /* AddBuilderViewController.m */,
+				EC16FCB11AA9192600992088 /* BuilderViewController.h */,
+				EC16FCB21AA9192600992088 /* BuilderViewController.m */,
+				EC16FCA51AA9073D00992088 /* DBManager.h */,
+				EC16FCA61AA9073D00992088 /* DBManager.m */,
+			);
+			name = DBManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +285,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC041A7B1AD8B34400277C6E /* builder.sql in Resources */,
+				EC041A781AD8B1FC00277C6E /* new-home-robin-b.jpg in Resources */,
 				EC16FC801AA905D300992088 /* Main.storyboard in Resources */,
+				EC041A791AD8B1FC00277C6E /* mockingbird-a-new-home.jpg in Resources */,
 				EC16FC851AA905D300992088 /* LaunchScreen.xib in Resources */,
 				EC16FC821AA905D300992088 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +308,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC16FC7D1AA905D300992088 /* ViewController.m in Sources */,
+				EC16FCB31AA9192600992088 /* BuilderViewController.m in Sources */,
+				EC16FCD11AA972C400992088 /* ViewBuilderViewController.m in Sources */,
+				EC16FCD41AA976E000992088 /* UpdateBuilderViewController.m in Sources */,
+				EC16FCC81AA9648E00992088 /* Company+DeleteCompany.m in Sources */,
 				EC16FC7A1AA905D300992088 /* AppDelegate.m in Sources */,
+				EC16FCC21AA959E500992088 /* Company.m in Sources */,
+				EC16FCBF1AA94FBD00992088 /* AddBuilderViewController.m in Sources */,
+				EC16FCC51AA9646900992088 /* Company+AddCompany.m in Sources */,
 				EC16FC771AA905D300992088 /* main.m in Sources */,
+				EC16FCA71AA9073D00992088 /* DBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +508,7 @@
 				EC16FC961AA905D300992088 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC16FC971AA905D300992088 /* Build configuration list for PBXNativeTarget "NatashaAppTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +517,7 @@
 				EC16FC991AA905D300992088 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
